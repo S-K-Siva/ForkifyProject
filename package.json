@@ -1,0 +1,26 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "SIVA S K",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.0",
+    "favicons": "^7.1.4",
+    "fracty": "^1.0.11",
+    "num2fraction": "^1.2.2",
+    "parcel": "^2.9.3",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "default": "index.html",
+  "description": ""
+}
